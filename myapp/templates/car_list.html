@@ -1,0 +1,6 @@
+{% block content %}
+<!––{{  object_list }}––>
+    {%  for instance in object_list %}
+        <p>{{ instance.name }} - {{ instance.body }}</p>
+    {% endfor %}
+{% endblock %}
